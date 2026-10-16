@@ -6,4 +6,7 @@ The MacroPad is a general use macro keypad, designed for ECAD, CAD, Photoshop, B
 - 3x4 Cherry MX switches
 - USB type C
 - Obviously works on bluetooth
-#
+# Requirements
+you can check the Excel file in the zip file.
+# What about codes ?
+Im actually working on it and will release as soon as possible. I will also release a manual how to use it later.
