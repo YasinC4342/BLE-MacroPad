@@ -78,7 +78,7 @@ The antenna area needs special attention because an unsuitable PCB layout or nea
 ![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/DRC.png)
 ![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/pcb.png)
 
-## ## October 14th: Preparing the Manufacturing Files
+## October 14th: Preparing the Manufacturing Files
 
 **Total time spent: 30 minutes**
 
