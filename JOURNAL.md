@@ -115,9 +115,9 @@ The BOM will be particularly important when preparing the prototype because the 
 
 **Images**
 
-![](https://fabricate.hackclub-assets.com/de10b93c940bb524bae18a32aa856db39d8466080ff1f222de2fc41762d2e225/image-png/jlcpcb.png)
-![](https://fabricate.hackclub-assets.com/51b6ac31f7907a7d70e4253d62405e24c4c6399937dba89527e92cce6322e7b9/image-png/bom.png)
-![](https://fabricate.hackclub-assets.com/878eb54cf51404c1740e884ef1652dfa2817245e71eeae1a0698b378916d57d8/image-png/release.png)
+![PCB manufacturing file preparation](https://fabricate.hackclub-assets.com/de10b93c940bb524bae18a32aa856db39d8466080ff1f222de2fc41762d2e225/image-png/jlcpcb.png)
+![BLE-MacroPad bill of materials](https://fabricate.hackclub-assets.com/51b6ac31f7907a7d70e4253d62405e24c4c6399937dba89527e92cce6322e7b9/image-png/bom.png)
+![BLE-MacroPad v2.0.0 GitHub release](https://fabricate.hackclub-assets.com/878eb54cf51404c1740e884ef1652dfa2817245e71eeae1a0698b378916d57d8/image-png/release.png)
 
 **Total time spent: 30m**
 
