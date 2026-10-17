@@ -71,10 +71,12 @@ The antenna area needs special attention because an unsuitable PCB layout or nea
 
 **Images**
 
-- [Insert a screenshot of the KiCad schematic.]
-- [Insert a screenshot of the PCB layout.]
-- [Insert the ERC/DRC results.]
-- [Insert a 3D view from KiCad, if available.]
+![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/d68c228c3b48633ff4b1609f1aab1a560d1eef24/screenshots/schematic.png)
+![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/1e30705221597c452d40c063b3204bb7d3c16202/screenshots/back.png)
+![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/1e30705221597c452d40c063b3204bb7d3c16202/screenshots/front.png)
+![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/08d615e366046ee42e02a8333a5637680886da8f/screenshots/ERC.png)
+![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/08d615e366046ee42e02a8333a5637680886da8f/screenshots/DRC.png)
+![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/9d4caab7720e14de0b5ab2c0acdc95fa782a48ee/screenshots/pcb.png)
 
 ## Session 3: Preparing the Manufacturing Files
 
@@ -105,9 +107,9 @@ The BOM will be particularly important when preparing the prototype because the 
 
 **Images**
 
-- [Insert a screenshot of the exported manufacturing files.]
-- [Insert a screenshot of the BOM.]
-- [Insert a screenshot of the GitHub release.]
+![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/048e15aa295e217a0c875d17c981fadc46fc8fab/screenshots/manufacture.png)
+![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/08d615e366046ee42e02a8333a5637680886da8f/screenshots/bom.png)
+![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/08d615e366046ee42e02a8333a5637680886da8f/screenshots/release.png)
 
 ## Current Project Status
 
