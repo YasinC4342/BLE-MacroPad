@@ -9,7 +9,7 @@ The MacroPad is a general use macro keypad, designed for ECAD, CAD, Photoshop, B
 - USB type C
 - Obviously works on bluetooth
 
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/a1fa2daa34d7a59f89eb43b21ff5f66d1158430d/Screenshots/project_image.png)
+![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/e4277bfc1b626efe080e17bea29c4abbc86e7139/screenshots/cad.png)
 # Requirements
 you can check the Excel file in the zip file.
 # What about code ?
