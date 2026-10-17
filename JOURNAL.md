@@ -11,9 +11,9 @@ The BLE-MacroPad is a custom Bluetooth macro keypad designed for ECAD, CAD, imag
 
 This journal documents the design process, engineering decisions, challenges, and preparation of the hardware manufacturing files. The project is currently at the design stage: the hardware has not yet been physically manufactured or tested.
 
-## Session 1: Mechanical Design and Component Layout
+## October 1th: Mechanical Design and Component Layout
 
-**Time spent: 3 hours**
+**Total time spent: 3 hours**
 
 I worked on the physical layout of the macro keypad in Fusion 360. My objective was to integrate the 3×4 key layout, OLED display, RGB LEDs, and USB Type-C connector into a compact device.
 
@@ -38,9 +38,9 @@ One of the challenges in designing a compact device is avoiding interference bet
 ![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/cad.png)
 ![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/rendered.png)
 
-## Session 2: PCB Design in KiCad
+## October 6th PCB Design in KiCad
 
-**Time spent: 5 hours**
+**Total time spent: 5 hours**
 
 I designed the electronic board in KiCad, translating the intended component layout into a PCB design. The board brings together the microcontroller module, key switches, addressable RGB LEDs, OLED display connections, and USB Type-C interface.
 
@@ -78,9 +78,9 @@ The antenna area needs special attention because an unsuitable PCB layout or nea
 ![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/DRC.png)
 ![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/pcb.png)
 
-## Session 3: Preparing the Manufacturing Files
+## ## October 14th: Preparing the Manufacturing Files
 
-**Time spent: 30 minutes**
+**Total time spent: 30 minutes**
 
 After completing the initial design, I prepared the project files required for manufacturing and documentation.
 
