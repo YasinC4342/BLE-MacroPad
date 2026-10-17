@@ -14,3 +14,5 @@ The MacroPad is a general use macro keypad, designed for ECAD, CAD, Photoshop, B
 you can check the Excel file in the zip file.
 # What about code ?
 Im actually working on it and will release as soon as possible. I will also release a manual how to use it later. And, in reality, no physical testing was made due to my financial situation, instead, everything was verified theoretically, and the DRC and ERC checks were successfully passed.
+# Download
+Download the complete hardware design package from the v2.0.0 Release.
