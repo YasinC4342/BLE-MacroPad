@@ -35,8 +35,8 @@ One of the challenges in designing a compact device is avoiding interference bet
 
 **Images**
 
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/e4277bfc1b626efe080e17bea29c4abbc86e7139/screenshots/cad.png)
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/56c82cb52961fdbd2fd40449b1ed63050475df9e/screenshots/rendered.png)
+![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/cad.png)
+![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/rendered.png)
 
 ## Session 2: PCB Design in KiCad
 
@@ -71,12 +71,12 @@ The antenna area needs special attention because an unsuitable PCB layout or nea
 
 **Images**
 
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/d68c228c3b48633ff4b1609f1aab1a560d1eef24/screenshots/schematic.png)
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/1e30705221597c452d40c063b3204bb7d3c16202/screenshots/back.png)
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/1e30705221597c452d40c063b3204bb7d3c16202/screenshots/front.png)
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/08d615e366046ee42e02a8333a5637680886da8f/screenshots/ERC.png)
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/08d615e366046ee42e02a8333a5637680886da8f/screenshots/DRC.png)
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/9d4caab7720e14de0b5ab2c0acdc95fa782a48ee/screenshots/pcb.png)
+![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/schematic.png)
+![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/back.png)
+![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/front.png)
+![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/ERC.png)
+![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/DRC.png)
+![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/pcb.png)
 
 ## Session 3: Preparing the Manufacturing Files
 
@@ -107,9 +107,9 @@ The BOM will be particularly important when preparing the prototype because the 
 
 **Images**
 
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/048e15aa295e217a0c875d17c981fadc46fc8fab/screenshots/manufacture.png)
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/08d615e366046ee42e02a8333a5637680886da8f/screenshots/bom.png)
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/08d615e366046ee42e02a8333a5637680886da8f/screenshots/release.png)
+![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/manufacture.png)
+![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/bom.png)
+![image alt](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/release.png)
 
 ## Current Project Status
 
