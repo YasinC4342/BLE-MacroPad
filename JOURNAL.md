@@ -88,7 +88,7 @@ The antenna area needs special attention because an unsuitable PCB layout or nea
 **Total time spent: 5h**
 
 # October 14, 2026: Preparing the Manufacturing Files
-<!-- fabricate:entry 566 -->
+<!-- fabricate:entry 565 -->
 
 After completing the initial design, I prepared the project files required for manufacturing and documentation.
 
