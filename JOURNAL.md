@@ -3,7 +3,7 @@ title: "BLE-MacroPad"
 github: "https://github.com/YasinC4342/BLE-MacroPad"
 description: "A custom Bluetooth macro keypad for CAD, ECAD, and professional software."
 created_at: "2026-10-17"
-total_time: "8h 30m"
+total_time: "8h 20m"
 ---
 
 # BLE-MacroPad — Project Journal
@@ -87,8 +87,8 @@ The antenna area needs special attention because an unsuitable PCB layout or nea
 
 **Total time spent: 4h 50m**
 
-# October 14, 2026: Preparing the Manufacturing Files
-<!-- fabricate:entry 566 -->
+# October 17, 2026: Preparing the Manufacturing Files
+<!-- fabricate:entry 576 -->
 
 After completing the initial design, I prepared the project files required for manufacturing and documentation.
 
@@ -115,11 +115,9 @@ The BOM will be particularly important when preparing the prototype because the 
 
 **Images**
 
-![PCB manufacturing file preparation](https://fabricate.hackclub-assets.com/de10b93c940bb524bae18a32aa856db39d8466080ff1f222de2fc41762d2e225/image-png/manufacture.png)
-
-![BLE-MacroPad bill of materials](https://fabricate.hackclub-assets.com/51b6ac31f7907a7d70e4253d62405e24c4c6399937dba89527e92cce6322e7b9/image-png/bom.png)
-
-![BLE-MacroPad v2.0.0 GitHub release](https://fabricate.hackclub-assets.com/878eb54cf51404c1740e884ef1652dfa2817245e71eeae1a0698b378916d57d8/image-png/release.png)
+![](https://fabricate.hackclub-assets.com/de10b93c940bb524bae18a32aa856db39d8466080ff1f222de2fc41762d2e225/image-png/jlcpcb.png)
+![](https://fabricate.hackclub-assets.com/51b6ac31f7907a7d70e4253d62405e24c4c6399937dba89527e92cce6322e7b9/image-png/bom.png)
+![](https://fabricate.hackclub-assets.com/878eb54cf51404c1740e884ef1652dfa2817245e71eeae1a0698b378916d57d8/image-png/release.png)
 
 **Total time spent: 30m**
 
