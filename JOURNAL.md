@@ -3,7 +3,7 @@ title: "BLE-MacroPad"
 github: "https://github.com/YasinC4342/BLE-MacroPad"
 description: "A custom Bluetooth macro keypad for CAD, ECAD, and professional software."
 created_at: "2026-10-17"
-total_time: "8h 30m"
+total_time: "8h"
 ---
 
 # BLE-MacroPad — Project Journal
@@ -86,42 +86,6 @@ The antenna area needs special attention because an unsuitable PCB layout or nea
 ![KiCad Design Rules Check results](https://fabricate.hackclub-assets.com/37b56daa116dec787ebe330597f463fd75577e222bc9956bdbe1f6b11f1607f8/image-png/DRC.png)
 
 **Total time spent: 5h**
-
-# October 14, 2026: Preparing the Manufacturing Files
-<!-- fabricate:entry 565 -->
-
-After completing the initial design, I prepared the project files required for manufacturing and documentation.
-
-The manufacturing package is available in the GitHub release `v2.0.0`. It contains the relevant design exports, including the PCB manufacturing files, bill of materials (BOM), and mechanical model files.
-
-Keeping the manufacturing package together in a versioned release makes it easier to identify the intended design revision and retrieve the files required for a future prototype.
-
-**Prepared deliverables**
-
-- PCB manufacturing files.
-- Bill of materials and component information.
-- Mechanical design exports.
-- Project documentation and visual references.
-
-**Challenges**
-
-Preparing a manufacturing package requires more than designing the PCB. The exported files must also be organised so that the board can be fabricated and the necessary components can be identified and sourced.
-
-The BOM will be particularly important when preparing the prototype because the complete assembly depends on obtaining compatible components.
-
-**Project release**
-
-[BLE-MacroPad v2.0.0 — Manufacturing Package](https://github.com/YasinC4342/BLE-MacroPad/releases/tag/v2.0.0)
-
-**Images**
-
-![PCB manufacturing file preparation](https://fabricate.hackclub-assets.com/de10b93c940bb524bae18a32aa856db39d8466080ff1f222de2fc41762d2e225/image-png/manufacture.png)
-
-![BLE-MacroPad bill of materials](https://fabricate.hackclub-assets.com/51b6ac31f7907a7d70e4253d62405e24c4c6399937dba89527e92cce6322e7b9/image-png/bom.png)
-
-![BLE-MacroPad v2.0.0 GitHub release](https://fabricate.hackclub-assets.com/878eb54cf51404c1740e884ef1652dfa2817245e71eeae1a0698b378916d57d8/image-png/release.png)
-
-**Total time spent: 30m**
 
 # Current Project Status
 
