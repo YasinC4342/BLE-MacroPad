@@ -85,7 +85,7 @@ The antenna area needs special attention because an unsuitable PCB layout or nea
 
 ![KiCad Design Rules Check results](https://fabricate.hackclub-assets.com/37b56daa116dec787ebe330597f463fd75577e222bc9956bdbe1f6b11f1607f8/image-png/DRC.png)
 
-**Total time spent: 5h**
+**Total time spent: 4h 50m**
 
 # October 14, 2026: Preparing the Manufacturing Files
 <!-- fabricate:entry 566 -->
