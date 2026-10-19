@@ -77,9 +77,9 @@ The antenna area needs special attention because an unsuitable PCB layout or nea
 
 ![BLE-MacroPad PCB layout in KiCad](https://fabricate.hackclub-assets.com/7891004a0a289fe4d9ab86bb87481b8aa638a23bdb73918fd74a9de5d177bc1f/image-png/pcb.png)
 
-![Back view of the PCB](https://fabricate.hackclub-assets.com/42c3ffe7fa766f350bfee2b09e55d3a4daf961a92bfdfedbc2b7e8a0fe8a2e27/image-png/back.png)
+![Back view of the PCB](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/back.png)
 
-![Front view of the PCB](https://fabricate.hackclub-assets.com/baaa23e7055fbd679f1bbfb211fc3848e6a5b5632ab5f3ef74bcb58454f1af65/image-png/front.png)
+![Front view of the PCB](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/back.png)
 
 ![KiCad Electrical Rules Check results](https://fabricate.hackclub-assets.com/e57883c94137b7ccd200eefb112328732ce60b76cfa0db96cde5d6ba5b850d6f/image-png/ERC.png)
 
