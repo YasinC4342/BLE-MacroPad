@@ -37,17 +37,12 @@ I used Fusion 360 to check component spacing, prevent mechanical interference, a
 
 **Images**
 
-![KiCad electronic schematic](https://fabricate.hackclub-assets.com/89b7fac35c973cf494fa2296ef421e2da9e140d9607fa8d8d7d02d08b99c1494/image-png/schematic.png)
-
-![BLE-MacroPad PCB layout in KiCad](https://fabricate.hackclub-assets.com/7891004a0a289fe4d9ab86bb87481b8aa638a23bdb73918fd74a9de5d177bc1f/image-png/pcb.png)
-
-![Back view of the PCB](https://fabricate.hackclub-assets.com/42c3ffe7fa766f350bfee2b09e55d3a4daf961a92bfdfedbc2b7e8a0fe8a2e27/image-png/back.png)
-
-![Front view of the PCB](https://fabricate.hackclub-assets.com/baaa23e7055fbd679f1bbfb211fc3848e6a5b5632ab5f3ef74bcb58454f1af65/image-png/front.png)
-
-![KiCad Electrical Rules Check results](https://fabricate.hackclub-assets.com/e57883c94137b7ccd200eefb112328732ce60b76cfa0db96cde5d6ba5b850d6f/image-png/ERC.png)
-
-![KiCad Design Rules Check results](https://fabricate.hackclub-assets.com/37b56daa116dec787ebe330597f463fd75577e222bc9956bdbe1f6b11f1607f8/image-png/DRC.png)
+![](https://fabricate.hackclub-assets.com/2866c494600e7288cfc309a0de2de3534b9d542fd300774860fff5714090a291/image-png/back.png)
+![](https://fabricate.hackclub-assets.com/f21d3488b17b8b2cbcb713c4cdd5df1d32b651992c7f31fc4018218e6666d5a5/image-png/DRC.png)
+![](https://fabricate.hackclub-assets.com/e57883c94137b7ccd200eefb112328732ce60b76cfa0db96cde5d6ba5b850d6f/image-png/ERC.png)
+![](https://fabricate.hackclub-assets.com/ebd345143f87a1bfb2306ec64547918c64df1e172436ebfecb0bc3301f88e039/image-png/front.png)
+![](https://fabricate.hackclub-assets.com/7891004a0a289fe4d9ab86bb87481b8aa638a23bdb73918fd74a9de5d177bc1f/image-png/pcb.png)
+![](https://fabricate.hackclub-assets.com/9deac717c26d6a57bdf6fcb5e3c17d48a5f5c92e80dab518dddd2bafa87931ec/image-png/schematic.png)
 
 **Total time spent: 4h 48m**
 
@@ -119,9 +114,8 @@ Reducing costs while maintaining compatibility, checking the new footprint, rout
 
 **Images**
 
-![Bills of materials](https://fabricate.hackclub-assets.com/51b6ac31f7907a7d70e4253d62405e24c4c6399937dba89527e92cce6322e7b9/image-png/bom.png)
-
 ![](https://fabricate.hackclub-assets.com/90da5786ab3020c01a73dd4cbef6da7eff13ca2828d4bdff6478cdabb400d3c2/image-png/bom.png)
+![](https://fabricate.hackclub-assets.com/20b011450f4e4429be65c5a90cd849c4f38b6f7a80bbf3f9e7b1f901459db472/image-png/shop.png)
 
 **Total time spent: 4h 12m**
 
