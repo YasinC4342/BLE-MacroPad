@@ -103,6 +103,18 @@ I organised the files to simplify fabrication and component sourcing. The BOM is
 
 **Total time spent: 30m**
 
+# October 20, 2026: Component Cost Optimization
+
+After reviewing the project feedback, I revisited the BOM to reduce costs and stay within the €50 budget. The ESP32-S3-WROOM-2 was too expensive, so I decided to consider the more affordable ESP32-S3-WROOM-1 N16R8.
+
+This change requires updating the PCB footprint and checking the routing, antenna clearance, and ERC/DRC results before generating the final manufacturing files. And so this will cost at a total of about 46$
+
+**Images**
+
+![Bills of materials](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/bom.png)
+
+**Total time spent: 4h 12m**
+
 # Current Project Status
 
 The hardware design and manufacturing files are ready. KiCad's ERC and DRC checks passed, and the files are available in the GitHub release.
