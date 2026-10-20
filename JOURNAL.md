@@ -114,20 +114,3 @@ Reducing costs while maintaining compatibility, checking the new footprint, rout
 ![](https://fabricate.hackclub-assets.com/20b011450f4e4429be65c5a90cd849c4f38b6f7a80bbf3f9e7b1f901459db472/image-png/shop.png)
 
 **Total time spent: 4h 12m**
-
-# Current Project Status
-
-The hardware design and manufacturing files are ready. KiCad's ERC and DRC checks passed, and the files are available in the GitHub release.
-The prototype has not yet been manufactured or tested due to limited funding. Electrical behaviour, Bluetooth, and firmware still need validation.
-
-# Next Steps
-
-1. Obtain funding for fabrication and components.
-2. Assemble and test the prototype.
-3. Develop and validate the firmware.
-4. Test Bluetooth, OLED, RGB LEDs, and keys.
-5. Fix any issues discovered during testing.
-
-# Lessons and Future Improvements
-
-This project helped me improve my skills in mechanical design, PCB layout, component integration, and manufacturing preparation.
