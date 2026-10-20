@@ -15,18 +15,15 @@ This journal documents the design process, engineering decisions, challenges, an
 # October 1, 2026: PCB Design in KiCad
 <!-- fabricate:entry 758 -->
 
-I designed the macro keypad layout in Fusion 360, integrating the 3×4 key matrix, OLED display, RGB LEDs, and USB-C connector into a compact PCB measuring approximately 75 × 77 mm.
+I designed the PCB in KiCad, integrating the ESP32-WROOM module, key switches, RGB LEDs, OLED connections, and USB-C interface within a 75 × 77 mm board. KiCad's ERC and DRC checks passed successfully, although physical testing is still required to validate the hardware.
 
 **Design decisions**
-- 12 programmable keys in a 3×4 layout.
-- OLED display for status information.
-- Addressable RGB LEDs for visual feedback.
-- Accessible USB-C connector.
-- PCB and enclosure compatibility.
+
+I added a keepout zone around the ESP32 antenna area to reduce potential interference and help maintain Bluetooth performance, following the module's layout recommendations.
 
 **Challenges**
 
-I used Fusion 360 to check component spacing, prevent mechanical interference, and verify the layout before manufacturing.
+Fitting all components into a compact PCB while preserving routing space and antenna clearance required careful placement and layout planning.
 
 **Validation status**
 
