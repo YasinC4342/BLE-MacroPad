@@ -12,7 +12,7 @@ The BLE-MacroPad is a custom Bluetooth macro keypad designed for ECAD, CAD, imag
 
 This journal documents the design process, engineering decisions, challenges, and preparation of the hardware manufacturing files. The project is currently at the design stage: the hardware has not yet been physically manufactured or tested.
 
-## October 1, 2026: PCB Design in KiCad
+# October 1, 2026: PCB Design in KiCad
 <!-- fabricate:entry 758 -->
 
 I designed the macro keypad layout in Fusion 360, integrating the 3×4 key matrix, OLED display, RGB LEDs, and USB-C connector into a compact PCB measuring approximately 75 × 77 mm.
@@ -51,7 +51,7 @@ I used Fusion 360 to check component spacing, prevent mechanical interference, a
 
 **Total time spent: 4h 50m**
 
-## October 6, 2026: Mechanical Design and Component Layout
+# October 6, 2026: Mechanical Design and Component Layout
 <!-- fabricate:entry 759 -->
 
 I designed the macro keypad layout in Fusion 360, integrating 12 keys in a 3×4 layout, an OLED display, RGB LEDs, and a USB Type-C connector.
@@ -76,7 +76,7 @@ I used Fusion 360 to check component spacing, identify potential interference, a
 
 **Total time spent: 3h**
 
-## October 14, 2026: Preparing the Manufacturing Files
+# October 14, 2026: Preparing the Manufacturing Files
 <!-- fabricate:entry 760 -->
 
 I prepared the manufacturing package for release v2.0.0 on GitHub, including PCB fabrication files, the BOM, mechanical exports, and project documentation.
@@ -106,7 +106,7 @@ I organised the files to simplify fabrication and component sourcing. The BOM is
 
 **Total time spent: 30m**
 
-## October 20, 2026: Component Cost Optimization
+# October 20, 2026: Component Cost Optimization
 <!-- fabricate:entry 761 -->
 
 After reviewing the project feedback, I revisited the BOM to reduce costs and stay within the €50 budget. The ESP32-S3-WROOM-2 was too expensive, so I decided to consider the more affordable ESP32-S3-WROOM-1 N16R8.
