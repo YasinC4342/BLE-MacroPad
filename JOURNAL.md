@@ -12,37 +12,6 @@ The BLE-MacroPad is a custom Bluetooth macro keypad designed for ECAD, CAD, imag
 
 This journal documents the design process, engineering decisions, challenges, and preparation of the hardware manufacturing files. The project is currently at the design stage: the hardware has not yet been physically manufactured or tested.
 
-## October 1, 2026: Mechanical Design and Component Layout
-<!-- fabricate:entry 563 -->
-
-I worked on the physical layout of the macro keypad in Fusion 360. My objective was to integrate the 3×4 key layout, OLED display, RGB LEDs, and USB Type-C connector into a compact device.
-
-I chose a PCB size of approximately 75 × 77 mm to accommodate the different components while keeping the device reasonably compact and suitable for its intended professional use.
-
-The mechanical design was important because component placement affects not only the appearance of the device but also the available PCB area, the enclosure dimensions, and the accessibility of the keys and connectors.
-
-**Design decisions**
-
-- Use a 3×4 layout to provide 12 programmable keys.
-- Integrate a small OLED display for potential status or interface information.
-- Include individually addressable RGB LEDs for visual feedback.
-- Keep the USB Type-C connector accessible.
-- Consider the relationship between the PCB layout and the enclosure before manufacturing.
-
-**Challenges**
-
-One of the challenges in designing a compact device is avoiding interference between components and ensuring that they fit within the available space. I used Fusion 360 to inspect the mechanical arrangement and identify potential placement conflicts before fabrication.
-
-**Images**
-
-![Fusion 360 mechanical CAD design](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/cad.png)
-
-![Rendered BLE-MacroPad model](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/rendered.png)
-
-**Total time spent: 3h**
-
-## October 6, 2026: PCB Design in KiCad
-<!-- fabricate:entry 564 -->
 ## October 1, 2026: PCB Design in KiCad
 
 I designed the electronic board in KiCad, translating the intended component layout into a PCB design. The board brings together the microcontroller module, key switches, addressable RGB LEDs, OLED display connections, and USB Type-C interface.
