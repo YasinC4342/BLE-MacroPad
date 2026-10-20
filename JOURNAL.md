@@ -109,6 +109,10 @@ After reviewing the project feedback, I revisited the BOM to reduce costs and st
 
 This change requires updating the PCB footprint and checking the routing, antenna clearance, and ERC/DRC results before generating the final manufacturing files. And so this will cost at a total of about 46$
 
+**Challenges**
+
+Reducing costs while maintaining compatibility, checking the new footprint, routing, and antenna clearance.
+
 **Images**
 
 ![Bills of materials](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/bom.png)
