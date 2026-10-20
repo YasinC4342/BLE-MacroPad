@@ -103,7 +103,7 @@ I organised the files to simplify fabrication and component sourcing. The BOM is
 
 **Total time spent: 30m**
 
-# October 20, 2026: Component Cost Optimization
+## October 20, 2026: Component Cost Optimization
 
 After reviewing the project feedback, I revisited the BOM to reduce costs and stay within the €50 budget. The ESP32-S3-WROOM-2 was too expensive, so I decided to consider the more affordable ESP32-S3-WROOM-1 N16R8.
 
