@@ -73,7 +73,7 @@ The antenna area needs special attention because an unsuitable PCB layout or nea
 
 **Images**
 
-![KiCad electronic schematic](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/back.png)
+![KiCad electronic schematic](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/schematics.png)
 
 ![BLE-MacroPad PCB layout in KiCad](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/pcb.png)
 
