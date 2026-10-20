@@ -13,27 +13,19 @@ The BLE-MacroPad is a custom Bluetooth macro keypad designed for ECAD, CAD, imag
 This journal documents the design process, engineering decisions, challenges, and preparation of the hardware manufacturing files. The project is currently at the design stage: the hardware has not yet been physically manufactured or tested.
 
 ## October 1, 2026: PCB Design in KiCad
-<!-- fabricate:entry 563 -->
 
-I designed the electronic board in KiCad, translating the intended component layout into a PCB design. The board brings together the microcontroller module, key switches, addressable RGB LEDs, OLED display connections, and USB Type-C interface.
-
-The PCB had to fit within the planned 75 × 77 mm footprint while providing space for component placement and electrical routing.
-
-After completing the design, I ran KiCad's Electrical Rules Check (ERC) and Design Rules Check (DRC). Both checks completed successfully.
-
-These checks help identify electrical schematic inconsistencies and PCB layout rule violations. However, passing them does not guarantee that the finished hardware will operate correctly, so physical validation will still be necessary.
+I designed the macro keypad layout in Fusion 360, integrating the 3×4 key matrix, OLED display, RGB LEDs, and USB-C connector into a compact PCB measuring approximately 75 × 77 mm.
 
 **Design decisions**
-
-One important decision was to create a keepout zone beneath the ESP32-WROOM module's antenna area. The intention is to avoid placing copper or other conductive structures where they could interfere with the antenna's radio-frequency performance.
-
-This is particularly important for a Bluetooth device, because antenna performance can affect wireless range and reliability. The exact keepout requirements must follow the antenna recommendations in the module manufacturer's documentation.
+- 12 programmable keys in a 3×4 layout.
+- OLED display for status information.
+- Addressable RGB LEDs for visual feedback.
+- Accessible USB-C connector.
+- PCB and enclosure compatibility.
 
 **Challenges**
 
-Fitting all the required components into a relatively compact PCB requires balancing component placement, routing space, and wireless performance.
-
-The antenna area needs special attention because an unsuitable PCB layout or nearby conductive material can degrade Bluetooth performance. I therefore included a keepout zone as part of the design.
+I used Fusion 360 to check component spacing, prevent mechanical interference, and verify the layout before manufacturing.
 
 **Validation status**
 
@@ -58,26 +50,21 @@ The antenna area needs special attention because an unsuitable PCB layout or nea
 
 **Total time spent: 4h 50m**
 
-## October 6, 2026: PCB Design in KiCad
-<!-- fabricate:entry 564 -->
+## October 6, 2026: Mechanical Design and Component Layout
 
-I worked on the physical layout of the macro keypad in Fusion 360. My objective was to integrate the 3×4 key layout, OLED display, RGB LEDs, and USB Type-C connector into a compact device.
+I designed the macro keypad layout in Fusion 360, integrating 12 keys in a 3×4 layout, an OLED display, RGB LEDs, and a USB Type-C connector.
 
-I chose a PCB size of approximately 75 × 77 mm to accommodate the different components while keeping the device reasonably compact and suitable for its intended professional use.
-
-The mechanical design was important because component placement affects not only the appearance of the device but also the available PCB area, the enclosure dimensions, and the accessibility of the keys and connectors.
+I selected a PCB size of approximately 75 × 77 mm to keep the device compact and functional.
 
 **Design decisions**
-
-- Use a 3×4 layout to provide 12 programmable keys.
-- Integrate a small OLED display for potential status or interface information.
-- Include individually addressable RGB LEDs for visual feedback.
-- Keep the USB Type-C connector accessible.
-- Consider the relationship between the PCB layout and the enclosure before manufacturing.
+- 12 programmable keys.
+- OLED display and RGB feedback.
+- Accessible USB Type-C connector.
+- Mechanical compatibility with the enclosure.
 
 **Challenges**
 
-One of the challenges in designing a compact device is avoiding interference between components and ensuring that they fit within the available space. I used Fusion 360 to inspect the mechanical arrangement and identify potential placement conflicts before fabrication.
+I used Fusion 360 to check component spacing, identify potential interference, and verify the layout before manufacturing.
 
 **Images**
 
@@ -88,26 +75,22 @@ One of the challenges in designing a compact device is avoiding interference bet
 **Total time spent: 3h**
 
 ## October 14, 2026: Preparing the Manufacturing Files
-<!-- fabricate:entry 576 -->
 
-After completing the initial design, I prepared the project files required for manufacturing and documentation.
+I prepared the manufacturing package for release v2.0.0 on GitHub, including PCB fabrication files, the BOM, mechanical exports, and project documentation.
 
-The manufacturing package is available in the GitHub release `v2.0.0`. It contains the relevant design exports, including the PCB manufacturing files, bill of materials (BOM), and mechanical model files.
+**Deliverables**
 
-Keeping the manufacturing package together in a versioned release makes it easier to identify the intended design revision and retrieve the files required for a future prototype.
+PCB manufacturing files.
 
-**Prepared deliverables**
+Bill of materials (BOM).
 
-- PCB manufacturing files.
-- Bill of materials and component information.
-- Mechanical design exports.
-- Project documentation and visual references.
+Mechanical model exports.
+
+Documentation and visual references.
 
 **Challenges**
 
-Preparing a manufacturing package requires more than designing the PCB. The exported files must also be organised so that the board can be fabricated and the necessary components can be identified and sourced.
-
-The BOM will be particularly important when preparing the prototype because the complete assembly depends on obtaining compatible components.
+I organised the files to simplify fabrication and component sourcing. The BOM is essential for identifying compatible components and estimating the total prototype cost.
 
 | ID | Reference                                         | Footprint                                   | Quantity | Designation        | Price Euro | Links                                                                                                                                                                                                                                                                                                                                             | TOTAL Euro                       |   |
 |----|---------------------------------------------------|---------------------------------------------|----------|--------------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|---|
@@ -139,33 +122,23 @@ The BOM will be particularly important when preparing the prototype because the 
 
 ![PCB manufacturing file preparation](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/manufacture.png)
 ![BLE-MacroPad v2.0.0 GitHub release](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/release.png)
-![Aliexpress shopping cart](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/shop.png)
 
 **Total time spent: 30m**
 
 # Current Project Status
 
-The initial hardware design and manufacturing documentation have been prepared. KiCad's ERC and DRC checks passed, and the project files have been published in a GitHub release.
+The hardware design and manufacturing files are ready. KiCad's ERC and DRC checks passed, and the files are available in the GitHub release.
 
-However, the prototype has not yet been manufactured or physically tested because I currently have limited financial resources.
-
-This means that the design is ready for the next stage of development, but its real-world electrical behaviour, Bluetooth performance, assembly, and firmware functionality remain to be validated.
+The prototype has not yet been manufactured or tested due to limited funding. Electrical behaviour, Bluetooth, and firmware still need validation.
 
 # Next Steps
 
-1. Obtain funding for PCB fabrication, components, and shipping.
-2. Manufacture and assemble the first prototype.
-3. Check the power supply, electrical connections, and component operation.
-4. Develop and test the firmware.
-5. Validate Bluetooth connectivity and measure its practical range.
-6. Test the OLED display, RGB LEDs, and key inputs.
-7. Document any hardware or firmware problems discovered during testing.
-8. Improve the design if the prototype reveals issues.
+1. Obtain funding for fabrication and components.
+2. Assemble and test the prototype.
+3. Develop and validate the firmware.
+4. Test Bluetooth, OLED, RGB LEDs, and keys.
+5. Fix any issues discovered during testing.
 
 # Lessons and Future Improvements
 
-This project has helped me practise mechanical design, PCB layout, component integration, and preparation of manufacturing files.
-
-It has also highlighted the importance of considering mechanical constraints and wireless antenna requirements early in the design process, rather than waiting until the board is manufactured.
-
-The next major milestone is to build a physical prototype. Testing will provide evidence that cannot be obtained from CAD models and design-rule checks alone, and will help determine which improvements are needed for a reliable final device.
+This project helped me improve my skills in mechanical design, PCB layout, component integration, and manufacturing preparation.
