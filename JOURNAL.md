@@ -15,16 +15,18 @@ This journal documents the design process, engineering decisions, challenges, an
 # October 1, 2026: PCB Design in KiCad
 <!-- fabricate:entry 758 -->
 
-I designed the PCB in KiCad, integrating the ESP32-WROOM module, key switches, RGB LEDs, OLED connections, and USB-C interface within a 75 × 77 mm board.
-KiCad's ERC and DRC checks passed successfully, although physical testing is still required to validate the hardware.
+I designed the macro keypad layout in Fusion 360, integrating the 3×4 key matrix, OLED display, RGB LEDs, and USB-C connector into a compact PCB measuring approximately 75 × 77 mm.
 
 **Design decisions**
-
-I added a keepout zone around the ESP32 antenna area to reduce potential interference and help maintain Bluetooth performance, following the module's layout recommendations.
+- 12 programmable keys in a 3×4 layout.
+- OLED display for status information.
+- Addressable RGB LEDs for visual feedback.
+- Accessible USB-C connector.
+- PCB and enclosure compatibility.
 
 **Challenges**
 
-Fitting all components into a compact PCB while preserving routing space and antenna clearance required careful placement and layout planning.
+I used Fusion 360 to check component spacing, prevent mechanical interference, and verify the layout before manufacturing.
 
 **Validation status**
 
@@ -48,6 +50,7 @@ Fitting all components into a compact PCB while preserving routing space and ant
 <!-- fabricate:entry 759 -->
 
 I designed the macro keypad layout in Fusion 360, integrating 12 keys in a 3×4 layout, an OLED display, RGB LEDs, and a USB Type-C connector.
+
 I selected a PCB size of approximately 75 × 77 mm to keep the device compact and functional.
 
 **Design decisions**
@@ -75,8 +78,11 @@ I prepared the manufacturing package for release v2.0.0 on GitHub, including PCB
 **Deliverables**
 
 PCB manufacturing files.
+
 Bill of materials (BOM).
+
 Mechanical model exports.
+
 Documentation and visual references.
 
 **Challenges**
@@ -98,6 +104,7 @@ I organised the files to simplify fabrication and component sourcing. The BOM is
 <!-- fabricate:entry 761 -->
 
 After reviewing the project feedback, I revisited the BOM to reduce costs and stay within the €50 budget. The ESP32-S3-WROOM-2 was too expensive, so I decided to consider the more affordable ESP32-S3-WROOM-1 N16R8.
+
 This change requires updating the PCB footprint and checking the routing, antenna clearance, and ERC/DRC results before generating the final manufacturing files. And so this will cost at a total of about 46$
 
 **Challenges**
