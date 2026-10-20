@@ -139,6 +139,7 @@ The BOM will be particularly important when preparing the prototype because the 
 
 ![PCB manufacturing file preparation](https://fabricate.hackclub-assets.com/de10b93c940bb524bae18a32aa856db39d8466080ff1f222de2fc41762d2e225/image-png/jlcpcb.png)
 ![BLE-MacroPad v2.0.0 GitHub release](https://fabricate.hackclub-assets.com/878eb54cf51404c1740e884ef1652dfa2817245e71eeae1a0698b378916d57d8/image-png/release.png)
+![Aliexpress shopping cart](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/shop.png)
 
 **Total time spent: 30m**
 
