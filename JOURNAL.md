@@ -15,18 +15,16 @@ This journal documents the design process, engineering decisions, challenges, an
 # October 1, 2026: PCB Design in KiCad
 <!-- fabricate:entry 758 -->
 
-I designed the macro keypad layout in Fusion 360, integrating the 3×4 key matrix, OLED display, RGB LEDs, and USB-C connector into a compact PCB measuring approximately 75 × 77 mm.
+I designed the PCB in KiCad, integrating the ESP32-WROOM module, key switches, RGB LEDs, OLED connections, and USB-C interface within a 75 × 77 mm board.
+KiCad's ERC and DRC checks passed successfully, although physical testing is still required to validate the hardware.
 
 **Design decisions**
-- 12 programmable keys in a 3×4 layout.
-- OLED display for status information.
-- Addressable RGB LEDs for visual feedback.
-- Accessible USB-C connector.
-- PCB and enclosure compatibility.
+
+I added a keepout zone around the ESP32 antenna area to reduce potential interference and help maintain Bluetooth performance, following the module's layout recommendations.
 
 **Challenges**
 
-I used Fusion 360 to check component spacing, prevent mechanical interference, and verify the layout before manufacturing.
+Fitting all components into a compact PCB while preserving routing space and antenna clearance required careful placement and layout planning.
 
 **Validation status**
 
@@ -50,7 +48,6 @@ I used Fusion 360 to check component spacing, prevent mechanical interference, a
 <!-- fabricate:entry 759 -->
 
 I designed the macro keypad layout in Fusion 360, integrating 12 keys in a 3×4 layout, an OLED display, RGB LEDs, and a USB Type-C connector.
-
 I selected a PCB size of approximately 75 × 77 mm to keep the device compact and functional.
 
 **Design decisions**
@@ -65,9 +62,8 @@ I used Fusion 360 to check component spacing, identify potential interference, a
 
 **Images**
 
-![Fusion 360 mechanical CAD design](https://fabricate.hackclub-assets.com/966a00ae057d44e6b4231329d6e3155526e99ad4710b72352246010e1bea54c3/image-png/cad.png)
-
-![Rendered BLE-MacroPad model](https://fabricate.hackclub-assets.com/7882eeb78bcce17e2ad59f65441f9a38263abb28ca37925840ee9d4a2f054076/image-png/rendered.png)
+![](https://fabricate.hackclub-assets.com/966a00ae057d44e6b4231329d6e3155526e99ad4710b72352246010e1bea54c3/image-png/cad.png)
+![](https://fabricate.hackclub-assets.com/7882eeb78bcce17e2ad59f65441f9a38263abb28ca37925840ee9d4a2f054076/image-png/rendered.png)
 
 **Total time spent: 3h**
 
@@ -79,11 +75,8 @@ I prepared the manufacturing package for release v2.0.0 on GitHub, including PCB
 **Deliverables**
 
 PCB manufacturing files.
-
 Bill of materials (BOM).
-
 Mechanical model exports.
-
 Documentation and visual references.
 
 **Challenges**
@@ -96,8 +89,8 @@ I organised the files to simplify fabrication and component sourcing. The BOM is
 
 **Images**
 
-![PCB manufacturing file preparation](https://fabricate.hackclub-assets.com/de10b93c940bb524bae18a32aa856db39d8466080ff1f222de2fc41762d2e225/image-png/manufacture.png)
-![BLE-MacroPad v2.0.0 GitHub release](https://fabricate.hackclub-assets.com/878eb54cf51404c1740e884ef1652dfa2817245e71eeae1a0698b378916d57d8/image-png/release.png)
+![](https://fabricate.hackclub-assets.com/de10b93c940bb524bae18a32aa856db39d8466080ff1f222de2fc41762d2e225/image-png/jlcpcb.png)
+![](https://fabricate.hackclub-assets.com/878eb54cf51404c1740e884ef1652dfa2817245e71eeae1a0698b378916d57d8/image-png/release.png)
 
 **Total time spent: 30m**
 
@@ -105,7 +98,6 @@ I organised the files to simplify fabrication and component sourcing. The BOM is
 <!-- fabricate:entry 761 -->
 
 After reviewing the project feedback, I revisited the BOM to reduce costs and stay within the €50 budget. The ESP32-S3-WROOM-2 was too expensive, so I decided to consider the more affordable ESP32-S3-WROOM-1 N16R8.
-
 This change requires updating the PCB footprint and checking the routing, antenna clearance, and ERC/DRC results before generating the final manufacturing files. And so this will cost at a total of about 46$
 
 **Challenges**
@@ -122,7 +114,6 @@ Reducing costs while maintaining compatibility, checking the new footprint, rout
 # Current Project Status
 
 The hardware design and manufacturing files are ready. KiCad's ERC and DRC checks passed, and the files are available in the GitHub release.
-
 The prototype has not yet been manufactured or tested due to limited funding. Electrical behaviour, Bluetooth, and firmware still need validation.
 
 # Next Steps
