@@ -35,9 +35,9 @@ One of the challenges in designing a compact device is avoiding interference bet
 
 **Images**
 
-![Fusion 360 mechanical CAD design](https://fabricate.hackclub-assets.com/966a00ae057d44e6b4231329d6e3155526e99ad4710b72352246010e1bea54c3/image-png/cad.png)
+![Fusion 360 mechanical CAD design](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/cad.png)
 
-![Rendered BLE-MacroPad model](https://fabricate.hackclub-assets.com/7882eeb78bcce17e2ad59f65441f9a38263abb28ca37925840ee9d4a2f054076/image-png/rendered.png)
+![Rendered BLE-MacroPad model](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/rendered.png)
 
 **Total time spent: 3h**
 
@@ -73,17 +73,17 @@ The antenna area needs special attention because an unsuitable PCB layout or nea
 
 **Images**
 
-![KiCad electronic schematic](https://fabricate.hackclub-assets.com/89b7fac35c973cf494fa2296ef421e2da9e140d9607fa8d8d7d02d08b99c1494/image-png/schematic.png)
+![KiCad electronic schematic](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/back.png)
 
-![BLE-MacroPad PCB layout in KiCad](https://fabricate.hackclub-assets.com/7891004a0a289fe4d9ab86bb87481b8aa638a23bdb73918fd74a9de5d177bc1f/image-png/pcb.png)
+![BLE-MacroPad PCB layout in KiCad](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/pcb.png)
 
 ![Back view of the PCB](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/back.png)
 
-![Front view of the PCB](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/back.png)
+![Front view of the PCB](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/front.png)
 
-![KiCad Electrical Rules Check results](https://fabricate.hackclub-assets.com/e57883c94137b7ccd200eefb112328732ce60b76cfa0db96cde5d6ba5b850d6f/image-png/ERC.png)
+![KiCad Electrical Rules Check results](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/ERC.png)
 
-![KiCad Design Rules Check results](https://fabricate.hackclub-assets.com/37b56daa116dec787ebe330597f463fd75577e222bc9956bdbe1f6b11f1607f8/image-png/DRC.png)
+![KiCad Design Rules Check results](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/DRC.png)
 
 **Total time spent: 4h 50m**
 
@@ -137,8 +137,8 @@ The BOM will be particularly important when preparing the prototype because the 
 
 **Images**
 
-![PCB manufacturing file preparation](https://fabricate.hackclub-assets.com/de10b93c940bb524bae18a32aa856db39d8466080ff1f222de2fc41762d2e225/image-png/jlcpcb.png)
-![BLE-MacroPad v2.0.0 GitHub release](https://fabricate.hackclub-assets.com/878eb54cf51404c1740e884ef1652dfa2817245e71eeae1a0698b378916d57d8/image-png/release.png)
+![PCB manufacturing file preparation](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/manufacture.png)
+![BLE-MacroPad v2.0.0 GitHub release](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/release.png)
 ![Aliexpress shopping cart](https://raw.githubusercontent.com/YasinC4342/BLE-MacroPad/main/screenshots/shop.png)
 
 **Total time spent: 30m**
