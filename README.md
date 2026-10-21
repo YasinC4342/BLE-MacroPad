@@ -7,7 +7,7 @@ The MacroPad is a general use macro keypad, designed for ECAD, CAD, Photoshop, B
 
 My goal was to make 3D models quickly for the customers who needs it earlier than expected, and also for blender if i ever forgot of which combination i use for making a Bezel for example. Since i have a compact keyboard (about 60-65%), i needed more keys without sacrificing my workspace and also to put it on the side of the desk when i doesn't need it. Anyway, here is my first prototype (i cannot 3d print parts now because I am in the process of moving but as soon as possible) :
 
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/d0041fa200717d73e54ea6a9e53c59c167a6a463/screenshots/prototype.png)
+![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/f7c8d0690f8ba1090f7a12f084044ea9144bfe9d/screenshots/prototype.png)
 
 For information, i used examples of the libraries and merge all the examples in one code (with adjustements of course) to see if it works. Unfortunately, i don't own any esp32 but making simulations on Wowki or Tinkercad, so no bluetooth or usb, just basic testing.
  
