@@ -3,7 +3,7 @@
 2;"C13";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";1;"10µF";;;
 3;"C14";"CP_EIA-3216-18_Kemet-A_HandSolder";1;"10µF";;;
 4;"C15";"CP_EIA-3216-18_Kemet-A_HandSolder";1;"22µF";;;
-5;"D1, D2, D3, D4, D5, D6, D7, D8, D9, D9, D10, D11, D12";"MX_SK6812MINI-E";13;"SK6812";;;
+5;"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12";"MX_SK6812MINI-E";13;"SK6812";;;
 6;"D13";"D_1206_3216Metric";1;"D";;;
 7;"J1";"USB_C_Receptacle_Palconn_UTC16-G";1;"USB_C_Receptacle_USB2.0_14P";;;
 8;"R2, R3, R5, R6";"R_1206_3216Metric_Pad1.30x1.75mm_HandSolder";4;"5.1K";;;
