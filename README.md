@@ -9,6 +9,8 @@ My goal was to make 3D models quickly for the customers who needs it earlier tha
 
 ![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/d0041fa200717d73e54ea6a9e53c59c167a6a463/screenshots/prototype.png)
 
+For information, i used examples of the libraries and merge all the examples in one code (with adjustements of course) to see if it works. Unfortunately, i don't own any esp32 but making simulations on Wowki or Tinkercad, so no bluetooth or usb, just basic testing.
+ 
 # Features
 - O.96inch OLED display
 - 12 adressable RGB LEDs
