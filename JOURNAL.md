@@ -46,21 +46,7 @@ like Abrège : [**https://www.youtube.com/@Abr%C3%A8ge**](https://www.youtube.co
 # October 14, 2026: Preparing the Manufacturing Files
 <!-- fabricate:entry 760 -->
 
-I prepared the manufacturing package for release v2.0.0 on GitHub, including PCB fabrication files, the BOM, mechanical exports, and project documentation.
-
-**Deliverables**
-
-PCB manufacturing files.
-
-Bill of materials (BOM).
-
-Mechanical model exports.
-
-Documentation and visual references.
-
-**Challenges**
-
-I organised the files to simplify fabrication and component sourcing. The BOM is essential for identifying compatible components and estimating the total prototype cost.
+I prepared the manufacturing files into a zip for release v2.0.0 on GitHub, including Gerber file, BOM, and mechanical exports. So i exported the Gerber and BOM from KiCAD and tested on JLCPCB to see the 3d/2d view of the pcb and detection of the pcb, and of course i choose the cheapest delivery method to fit in my budget from 29$ to 4$ total. I chose black mask and white silkscreen to make it professionnal, remarquable and also to make it look like modern and newest design. All the files are ready, organised in the main directory and BOM updated, and I will publish the documentation of the product when received, assembled and tested.
 
 **Project release**
 
@@ -76,13 +62,7 @@ I organised the files to simplify fabrication and component sourcing. The BOM is
 # October 20, 2026: Component Cost Optimization
 <!-- fabricate:entry 761 -->
 
-After reviewing the project feedback, I revisited the BOM to reduce costs and stay within the €50 budget. The ESP32-S3-WROOM-2 was too expensive, so I decided to consider the more affordable ESP32-S3-WROOM-1 N16R8.
-
-This change required updating the PCB footprint and checking the routing, antenna clearance, and ERC/DRC results before generating the final manufacturing files. And so this costs at a total amount of about 46$
-
-**Challenges**
-
-Reducing costs while maintaining compatibility, checking the new footprint, routing, and antenna clearance.
+After realising that the project exceeds the max amount of 50$, I updated the BOM to reduce cost and stay in the 50$ budget (tier 4). The ESP32-S3-WROOM-2 was too expensive, so I decided to replace it and instead choose the ESP32-S3-WROOM-1 N16R8, more affordable in Aliexpress. After those changes, I updated the PCB footprint / symbol, replacing it, and checked the tracks (routing), antenna area and positionning, and ERC/DRC results before generating the final manufacturing files. And so this costs at a total amount of about 49$, which i will round it to 50$.
 
 **Images**
 
