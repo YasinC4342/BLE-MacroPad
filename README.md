@@ -49,7 +49,7 @@ The required components are down below :
 | 17 | U1                                                | ESP32-S3-WROOM-1                            | 1        | ESP32-S3-WROOM-1   | 6,59 €     | Aliexpress | [Link](https://www.aliexpress.com/item/1005009314619102.html?spm=a2g0o.cart.0.0.49d538daiCbZka&mp=1&pdp_npi=6%40dis%21EUR%21EUR%203.77%21EUR%203.39%21%21EUR%203.39%21%21%21%400b15834017924999145227292e0d64%2112000048716802392%21ct%21FR%214218883440%21%211%210%21)  |
 | 18 | U2                                                | 0.96" OLED Display module                   | 1        | 0,96"  OLED Module | 2,56 €     | Aliexpress | [Link](https://www.aliexpress.com/item/1005006141235306.html?spm=a2g0o.cart.0.0.10c238daxwhGx7&mp=1&pdp_npi=6%40dis%21EUR%21EUR%202.56%21EUR%202.56%21%21EUR%202.56%21%21%21%400b88abba17925006340776757e0ce6%2112000035944225407%21ct%21FR%214218883440%21%211%210%21)  |
 | 20 | PCB                                               | Main PCB                                    | 1        | PCB                | 3,57 €     | Aliexpress | [Link](https://cart.jlcpcb.com/fr/quote?spm=jlcpcb.Public.2006)                                                                                                                                                                                                           
-| **TOTAL** | 43,88 € | 49,24 $ |
+| **Total** | **43,88 €** | **49,24 $** |
 
 **AI Disclosure:**
 During this project, I used AI to help with debugging KiCad DRC errors and to assist in writing firmware, and to check if my circuit is fine WITHOUT listing any components, just giving me advice and i did on my own and figured out later.
