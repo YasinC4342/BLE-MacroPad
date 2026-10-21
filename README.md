@@ -3,7 +3,7 @@ The MacroPad is a general use macro keypad, designed for ECAD, CAD, Photoshop, B
 
 ![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/56c82cb52961fdbd2fd40449b1ed63050475df9e/screenshots/rendered.png)
 
-Why i made this ?
+# Why i made this ?
 
 My goal was to make 3D models quickly for the customers who needs it earlier than expected, and also for blender if i ever forgot of which combination i use for making a Bezel for example. Since i have a compact keyboard (about 60-65%), i needed more keys without sacrificing my workspace and also to put it on the side of the desk when i doesn't need it. Anyway, here is my first prototype (i cannot 3d print parts now because I am in the process of moving but as soon as possible) :
 
@@ -19,8 +19,8 @@ My goal was to make 3D models quickly for the customers who needs it earlier tha
 
 ![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/e4277bfc1b626efe080e17bea29c4abbc86e7139/screenshots/cad.png)
 ![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/e4277bfc1b626efe080e17bea29c4abbc86e7139/screenshots/pcb.png)
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/e4277bfc1b626efe080e17bea29c4abbc86e7139/screenshots/front.png)
-![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/e4277bfc1b626efe080e17bea29c4abbc86e7139/screenshots/back.png)
+[![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/e4277bfc1b626efe080e17bea29c4abbc86e7139/screenshots/front.png)](https://github.com/YasinC4342/BLE-MacroPad/blob/e57600317be44bef8a320cb266dc5060c91fbd37/screenshots/front.png)
+[![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/e4277bfc1b626efe080e17bea29c4abbc86e7139/screenshots/front.png)](https://github.com/YasinC4342/BLE-MacroPad/blob/e57600317be44bef8a320cb266dc5060c91fbd37/screenshots/back.png)
 
 # Requirements
 The required components are down below :
