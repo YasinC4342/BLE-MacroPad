@@ -51,5 +51,8 @@ The required components are down below :
 | 20 | PCB                                               | Main PCB                                    | 1        | PCB                | 3,57 €     | [Link](https://cart.jlcpcb.com/fr/quote?spm=jlcpcb.Public.2006)                                                                                                                                                                                                           
 | **TOTAL** | 43,88 € | 49,24 $ |
 
+**AI Disclosure:**
+During this project, I used AI to help with debugging KiCad DRC errors and to assist in writing firmware, and to check if my circuit is fine WITHOUT listing any components, just giving me advice and i did on my own and figured out later.
+
 # Downloads
 Download the complete hardware design package from the [**v2.0.0 Release**](https://github.com/YasinC4342/BLE-MacroPad/releases/tag/v2.0.0).
