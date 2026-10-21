@@ -19,8 +19,8 @@ My goal was to make 3D models quickly for the customers who needs it earlier tha
 
 ![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/e4277bfc1b626efe080e17bea29c4abbc86e7139/screenshots/cad.png)
 ![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/e4277bfc1b626efe080e17bea29c4abbc86e7139/screenshots/pcb.png)
-[![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/e4277bfc1b626efe080e17bea29c4abbc86e7139/screenshots/front.png)](https://github.com/YasinC4342/BLE-MacroPad/blob/e57600317be44bef8a320cb266dc5060c91fbd37/screenshots/front.png)
-[![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/e4277bfc1b626efe080e17bea29c4abbc86e7139/screenshots/front.png)](https://github.com/YasinC4342/BLE-MacroPad/blob/e57600317be44bef8a320cb266dc5060c91fbd37/screenshots/back.png)
+![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/e57600317be44bef8a320cb266dc5060c91fbd37/screenshots/front.png)
+![image alt](https://github.com/YasinC4342/BLE-MacroPad/blob/e57600317be44bef8a320cb266dc5060c91fbd37/screenshots/back.png)
 
 # Requirements
 The required components are down below :
