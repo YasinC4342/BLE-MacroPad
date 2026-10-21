@@ -8,29 +8,13 @@ total_time: "13h 6m"
 
 # BLE-MacroPad — Project Journal
 
-The BLE-MacroPad is a custom Bluetooth macro keypad designed for ECAD, CAD, image editing, 3D modelling, and other professional applications. Its purpose is to simplify repetitive tasks by triggering keyboard shortcuts, key combinations, and predefined text sequences with a single key press.
-
-This journal documents the design process, engineering decisions, challenges, and preparation of the hardware manufacturing files. The project is currently at the design stage: the hardware has not yet been physically manufactured or tested.
+The MacroPad is a general use macro keypad, designed for ECAD, CAD, Photoshop, Blender and many other professionnal softwares. Its purpose is to make multiple combinations within one click, so shortcuts (ex : CTRL + ALT + SHIFT or simply write lots of words). It will be working on both BLE and USB HID.
 
 # October 1, 2026: PCB Design in KiCad
 <!-- fabricate:entry 758 -->
 
-I designed the PCB in KiCad, integrating the ESP32-WROOM module, key switches, RGB LEDs, OLED connections, and USB-C interface within a 75 × 77 mm board. KiCad's ERC and DRC checks passed successfully, although physical testing is still required to validate the hardware.
-
-**Design decisions**
-
-I added a keepout zone around the ESP32 antenna area to reduce potential interference and help maintain Bluetooth performance, following the module's layout recommendations.
-
-**Challenges**
-
-Fitting all components into a compact PCB while preserving routing space and antenna clearance required careful placement and layout planning.
-
-**Validation status**
-
-- ERC: completed successfully.
-- DRC: completed successfully.
-- Physical PCB testing: not performed yet.
-- Bluetooth range: not measured yet.
+I made the PCB in KiCad, integrating the ESP32-WROOM module, mechanical switches, RGB LEDs, OLED display module, and USB-C connector, with the PCB dimension of about 75 × 77 mm. ERC and DRC checks passed successfully.
+I added a keepout zone around the ESP32 antenna area to reduce EMI, perturbating noises and also for better Bluetooth cover range, helped from documentations of Espressif. My goal was to fit all the components into a compact PCB to make it portable, not taking the majority of the workspace, keep the antenna's edge on the edge cuts of the PCB, chose fifferents tracks width and for only 2 layers if a problem appears.
 
 **Images**
 
@@ -46,19 +30,11 @@ Fitting all components into a compact PCB while preserving routing space and ant
 # October 6, 2026: Mechanical Design and Component Layout
 <!-- fabricate:entry 759 -->
 
-I designed the macro keypad layout in Fusion 360, integrating 12 keys in a 3×4 layout, an OLED display, RGB LEDs, and a USB Type-C connector.
+I designed the macro keypad 3D model in Fusion 360, integrating 12 keys in a 3×4 layout, an OLED display, RGB LEDs, and a USB Type-C connector.
+I imported the .STEP of the PCB and used the tool "Project" to see the exact measurements. But one big problem is that i needed to update it a lot because of the tolerance, which is +- 0.2-0.3, and the spacing between the 3d model's hole for fitting keys and the keycaps. So i used constraints and made it much easier !
 
-I selected a PCB size of approximately 75 × 77 mm to keep the device compact and functional.
-
-**Design decisions**
-- 12 programmable keys.
-- OLED display and RGB feedback.
-- Accessible USB Type-C connector.
-- Mechanical compatibility with the enclosure.
-
-**Challenges**
-
-I used Fusion 360 to check component spacing, identify potential interference, and verify the layout before manufacturing.
+I chose Fusion 360 as a CAD software because it's for makers (my thoughts), i have lots of experiences since i love learning some makers softwares and so inspired to them, 
+like Abrège : [**https://www.youtube.com/@Abr%C3%A8ge**](https://www.youtube.com/@Abr%C3%A8ge).
 
 **Images**
 
