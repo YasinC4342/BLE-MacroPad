@@ -3,7 +3,7 @@ title: "BLE-MacroPad"
 github: "https://github.com/YasinC4342/BLE-MacroPad"
 description: "A custom Bluetooth macro keypad for CAD, ECAD, and professional software."
 created_at: "2026-10-17"
-total_time: "12h 30m"
+total_time: "13h 6m"
 ---
 
 # BLE-MacroPad — Project Journal
@@ -111,6 +111,8 @@ Reducing costs while maintaining compatibility, checking the new footprint, rout
 **Images**
 
 ![](https://fabricate.hackclub-assets.com/90da5786ab3020c01a73dd4cbef6da7eff13ca2828d4bdff6478cdabb400d3c2/image-png/bom.png)
-![](https://fabricate.hackclub-assets.com/20b011450f4e4429be65c5a90cd849c4f38b6f7a80bbf3f9e7b1f901459db472/image-png/shop.png)
+![](https://fabricate.hackclub-assets.com/940acab7a5685c27606e4c7137f623ece72afeecf1ff155f8eafca536ef2cfc3/image-png/cart-3.png)
+![](https://fabricate.hackclub-assets.com/98c8bacd44e7bc58a298c780970a816ea4d3b7ce0b6e998533cacffabb7284eb/image-png/cart-2.png)
+![](https://fabricate.hackclub-assets.com/ecc57f962e896c3642ff75d8953a6806cb7992cbc8b28fc86dc7ddbdbcfe4220/image-png/cart-1.png)
 
-**Total time spent: 4h 12m**
+**Total time spent: 4h 48m**
