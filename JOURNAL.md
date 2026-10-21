@@ -13,8 +13,8 @@ The MacroPad is a general use macro keypad, designed for ECAD, CAD, Photoshop, B
 # October 1, 2026: PCB Design in KiCad
 <!-- fabricate:entry 758 -->
 
-I made the PCB in KiCad, integrating the ESP32-WROOM module, mechanical switches, RGB LEDs, OLED display module, and USB-C connector, with the PCB dimension of about 75 × 77 mm. ERC and DRC checks passed successfully.
-I added a keepout zone around the ESP32 antenna area to reduce EMI, perturbating noises and also for better Bluetooth cover range, helped from documentations of Espressif. My goal was to fit all the components into a compact PCB to make it portable, not taking the majority of the workspace, keep the antenna's edge on the edge cuts of the PCB, chose fifferents tracks width and for only 2 layers if a problem appears.
+I made the PCB in KiCad, integrating the ESP32-S3-WROOM-1 module, mechanical switches, RGB LEDs, OLED display module, and USB-C connector, with the PCB dimension of about 75 × 77 mm. ERC and DRC checks passed successfully.
+I added a keepout zone around the ESP32 antenna area to reduce EMI, perturbating noises and also for better Bluetooth cover range, helped from documentations of Espressif. My goal was to fit all the components into a compact PCB to make it portable, not taking the majority of the workspace, keep the antenna's edge on the edge cuts of the PCB, chose differents tracks width and for only 2 layers if a problem appears.
 
 **Images**
 
@@ -62,7 +62,7 @@ I prepared the manufacturing files into a zip for release v2.0.0 on GitHub, incl
 # October 20, 2026: Component Cost Optimization
 <!-- fabricate:entry 761 -->
 
-After realising that the project exceeds the max amount of 50$, I updated the BOM to reduce cost and stay in the 50$ budget (tier 4). The ESP32-S3-WROOM-2 was too expensive, so I decided to replace it and instead choose the ESP32-S3-WROOM-1 N16R8, more affordable in Aliexpress. After those changes, I updated the PCB footprint / symbol, replacing it, and checked the tracks (routing), antenna area and positionning, and ERC/DRC results before generating the final manufacturing files. And so this costs at a total amount of about 49$, which i will round it to 50$.
+After realising that the project exceeds the max amount of 50$, I updated the BOM to reduce cost and stay in the 50$ budget (tier 4). The ESP32-S3-WROOM-2 was too expensive, so I decided to replace it and instead choose the ESP32-S3-WROOM-1 N16R8, more affordable in Aliexpress. After those changes, I updated the PCB footprint / symbol, replacing it, and checked the tracks (routing), antenna area and positionning, and ERC/DRC results before generating the final manufacturing files. And so this costs at a total amount of about 49$, including shipping and all of those stuffs, which i will round it to 50$.
 
 **Images**
 
