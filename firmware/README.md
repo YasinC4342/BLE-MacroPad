@@ -4,7 +4,7 @@ RMK is a feature-rich and easy-to-use keyboard firmware.
 
 ## Use the template
 
-To run this firmware, you should have latest Rust installed. The full instruction of installing esp Rust toolchain can be found [here](https://docs.esp-rs.org/book/installation/index.html).
+To run this firmware, you should have latest Rust installed. The full instruction of installing esp Rust toolchain can be found [here](https://github.com/esp-rs/espup).
 
 [`espflash`](https://github.com/esp-rs/espflash) should also be installed:
 
