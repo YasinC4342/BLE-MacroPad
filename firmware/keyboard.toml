@@ -1,0 +1,73 @@
+
+[keyboard]
+name = "BLE-MacroPad V2"
+product_name = "BLE-MacroPad V2"
+manufacturer = "YasinC4342"
+vendor_id = 0x4c4b
+product_id = 0x4643
+chip = "esp32s3"
+usb_enable = true
+
+[matrix]
+matrix_type = "direct_pin"
+direct_pin_low_active = true
+debouncer = "default"
+direct_pins = [
+    ["GPIO1", "GPIO4", "GPIO5", "GPIO6"],
+    ["GPIO2", "GPIO7", "GPIO8", "GPIO9"],
+    ["GPIO3", "GPIO10", "GPIO11", "GPIO12"],
+]
+
+[layout]
+rows = 3
+cols = 4
+map = """
+(0,0) (0,1) (0,2) (0,3)
+(1,0) (1,1) (1,2) (1,3)
+(2,0) (2,1) (2,2) (2,3)
+"""
+
+[keymap]
+layers = 1
+
+[[keymap.layer]]
+keys = """
+A B C D
+E F G H
+I J K User1
+"""
+encoders = [["AudioVolUp", "AudioVolDown"]]
+
+[[input_device.encoder]]
+pin_a = "GPIO16"
+pin_b = "GPIO15"
+internal_pullup = true
+phase = "resolution"
+resolution = 4
+debounce_ms = 5
+
+[display]
+driver = "ssd1306"
+size = "128x64"
+rotation = 0
+renderer = "OledRenderer"
+min_render_interval = 33
+
+[display.protocol.i2c]
+instance = "I2C0"
+sda = "GPIO17"
+scl = "GPIO18"
+address = 0x3C
+
+[host]
+vial_enabled = true
+rynk_enabled = false
+unlock_keys = [[0, 0], [0, 1]]
+insecure = false
+
+[rmk]
+debounce_time = 30
+report_channel_size = 32
+
+[event]
+keyboard.channel_size = 32
